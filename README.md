@@ -5,7 +5,7 @@ Language Used: Python 3<br>
 Dependencies: numpy, pandas, matplotlib.pyplot,seaborn, sklearn,scipy<br>
 Data Source: https://www.utwente.nl/en/eemcs/ps/research/dataset/<br>
 
-1. The whole data used for this project is provided in the folder Raw_Initial_Datasets. It contains 10 files from 10 participants. Each of these participants were equipped with five smartphones on five body positions. You can read more particulars of the dataset in the readme file provided inside Dataset folder. Each participant has 4 different sensor data out of which 3 sensor data  are used in this study. x-axis, y-axis, z-axis  values are available for all three sensors (Accelerometer, gyroscope, linear accelaration).
+1. The whole data used for this project is provided in the folder 'Raw Datasets/Dataset'. It contains 10 files from 10 participants. Each of these participants were equipped with five smartphones on five body positions. You can read more particulars of the dataset in the readme file provided inside Dataset folder. Each participant has 4 different sensor data out of which 3 sensor data  are used in this study. x-axis, y-axis, z-axis  values are available for all three sensors (Accelerometer, gyroscope, linear accelaration).
 
 2. Primary EDA is done for the datasets to get an idea on how to proceed with the data. Codes for which are given in Diagrams_Human_Activity_Recognition.ipynb .
 
