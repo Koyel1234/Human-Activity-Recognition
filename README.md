@@ -13,7 +13,7 @@ Data Source: https://www.utwente.nl/en/eemcs/ps/research/dataset/<br>
 
 4. These files are then used for feature creation. We created a 3 seconds time window i.e. time window of length 150 records per window with an overlap of 20% to  create new features (Statistical features over each window , performed Fast Fourier Transformation (FFT) over each window and create time domain features and frequency domain features of window) from this windows. These features for each participant is saved in a csv named pi_features.csv for the i-th participant, i=1,2,....,10.
 
-5. The codes for pi.csv and pi_features.csv , i=1,2,3,....,10 are in raw_to_window.ipynb.
+5. The codes for pi.csv and pi_features.csv , i=1,2,3,....,10 are in raw_to_window_making.ipynb.
 
 6. All the features created are provided in features.txt
 
